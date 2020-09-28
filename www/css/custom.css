@@ -1,0 +1,55 @@
+.titulo {
+	margin-left: 10%;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+i.excluir {
+	color: #0d47a1;
+}
+
+.feito {
+	background-color: #1976d2 !important;
+}
+
+.feito div {
+	color: #fff;
+	text-decoration: line-through;
+}
+
+.feito i.excluir {
+	color: #fff;
+	z-index: 100;
+}
+
+#lblTarefa {
+	color: #000;
+}
+
+#tarefa {
+	color: #000;
+}
+
+#tarefa:focus {
+	color: #000;
+	border-bottom: 1px solid #000;
+	box-shadow: 0 1px 0 0 #000;
+}
+
+body {
+	min-height: 100vh;
+	overflow: hidden;
+}
+
+header {
+	height: 100px;
+}
+
+footer {
+	height: 100px;
+}
+
+main {
+	height: calc(100vh - 200px);
+	overflow-y: auto;
+}
